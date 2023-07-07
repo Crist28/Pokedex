@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/EstilosIndex.css">
+    </head>
+    <body>
+
+        <h1>
+            Pokédex
+        </h1>
+
+        <form>
+            <input type="text" placeholder="Ingrese el Pokémon a buscar">
+            <button>
+              <img src="https://mlstaticquic-a.akamaihd.net/pokeball-pokebola-7-cm-1-pokemon-de-regalo-cartas-pokemon-D_NQ_NP_974389-MLU32025493703_082019-F.jpg" alt="">
+            </button>
+          </form>
+      
+          <div class="card">
+            <div>
+              <h2><span id="name"></span></h2>
+            </div>
+            <span id="image"></span>
+      
+            <div class="box">
+              <table class="pokemon" cellspacing="10">
+                <tbody>
+                  <tr>
+                    <th>Tipo de Pokémon</th>
+                    <td><span id="type"></span></td>
+                  </tr>
+                  <tr>
+                    <th>Altura del Pokémon</th>
+                    <td><span id="height"></span></td>
+                  </tr>
+                  <tr>
+                    <th>Peso del Pokémon</th>
+                    <td><span id="weight"></span></td>
+                  </tr>
+                  <tr>
+                    <th valign="top">Habilidades</th>
+                    <td><span id="abilities"></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+      
+      
+
+        <div>
+            <a href="./template/pokemons.html">Ver todos los pokemons</a>
+        </div>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
